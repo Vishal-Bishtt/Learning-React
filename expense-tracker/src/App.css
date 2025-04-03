@@ -1,0 +1,90 @@
+
+h2, h3, h1 {
+  text-align: center;
+}
+
+.exp_container {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.money {
+  font-size: 20px;
+}
+
+.plus {
+  color: green;
+}
+
+.minus {
+  color: red;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  position: relative;
+}
+
+.list li.plus {
+  border-left: 5px solid green;
+}
+
+.list li.minus {
+  border-left: 5px solid red;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete-btn:hover {
+  background: darkred;
+}
+.form-control {
+  margin-bottom: 15px;
+}
+
+.form-control label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
